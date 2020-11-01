@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Твой шепот в telegram</title>
+</head>
+<body>
+<div class="img-wrap">
+    <img src="images/logo.jpg" class="logo" alt="logo">
+</div>
+
+<div class="text-center">
+    <p>Чтобы получать сообщения от внутреннего шёпота<br> нажми на кнопку!</p>
+    <p>Если у тебя не скачан телеграм, то скачай его по<br> ссылкам внизу и снова возвращайся на сайт❣️</p>
+</div>
+
+<div class="flex">
+<input value="Твой шёпот в telegram" type="button" onclick="location.href='tg://resolve?domain=urhear'" class="main-button"/>
+
+    <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" class="button1">
+        Скачать telegram на android
+    </a>
+    <br>
+    <a href="https://apps.apple.com/app/telegram-messenger/id686449807" class="button1">
+        Скачать telegram на iOS
+    </a>
+</div>
+
+<script type="text/javascript">
+    location.replace("tg://resolve?domain=urhear");
+</script>
+
+</body>
+</html>
